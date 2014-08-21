@@ -1,4 +1,4 @@
-my.terminator
+my.fonts
 ========
 
 # Install
