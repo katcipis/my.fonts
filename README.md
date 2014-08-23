@@ -2,6 +2,6 @@
 
 Clone the repository and run:
 
-    ./install.sh
+    make install
 
 You are done ;-)
