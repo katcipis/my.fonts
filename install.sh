@@ -1,15 +1,6 @@
 #/bin/bash
 
 echo "Copying fonts"
-#if [ -e ~/.config/fontconfig/conf.d/10-powerline-symbols.conf ]; then
-    #mv -rf ~/.config/fontconfig/conf.d/10-powerline-symbols.conf ~/.config/fontconfig/conf.d/10-powerline-symbols.bkp
-    #mkdir ~/.config/fontconfig/conf.d
-    #cp -rf config/fontconfig/conf.d/10-powerline-symbols.conf ~/.config/fontconfig/conf.d/10-powerline-symbols.conf
-#else
-    #mkdir -p ~/.config/fontconfig/conf.d
-    #cp -rf config/fontconfig/conf.d/10-powerline-symbols.conf ~/.config/fontconfig/conf.d/10-powerline-symbols.conf
-#fi
-
 if [ ! -e ~/.fonts/Monaco.ttf ]; then
     mkdir -p ~/.fonts
     echo "copying Monaco font"
