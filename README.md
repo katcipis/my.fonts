@@ -1,10 +1,7 @@
-my.fonts
-========
+# My Fonts
 
-# Install
+Clone the repository and run:
 
-Copy and past this code:
+    ./install.sh
 
-<code>
-curl -L https://raw.githubusercontent.com/lborguetti/my.fonts/master/install_dotfiles.sh | sh
-</code>
+You are done ;-)
