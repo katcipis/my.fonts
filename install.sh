@@ -13,7 +13,11 @@ if [ ! -e ~/.fonts/PowerlineSymbols.otf ]; then
     cp -rf fonts/PowerlineSymbols.otf ~/.fonts/PowerlineSymbols.otf
 fi
 
-cd ~
+if [ ! -e ~/.config/fontconfig/conf.d/10-powerline-symbols.conf ]; then
+    echo "copying poweline symbols config"
+    mkdir -p ~/.config/fontconfig/conf.d
+    cp -rf fonts/10-powerline-symbols.conf ~/.config/fontconfig/conf.d/10-powerline-symbols.conf
+fi
 
 # build font information cache files
 echo "Build font information cache files ..."
