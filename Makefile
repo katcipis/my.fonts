@@ -1,2 +1,2 @@
-install:
+all:
 	./install.sh
